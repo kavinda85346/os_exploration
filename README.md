@@ -20,46 +20,40 @@ The goal is to **develop cross-platform literacy**, automate common tasks, and u
 
 ```
 os_exploration/
-├── windows/
-│ ├── cmd/
-│ │ ├── disk_file_system_operations.md
-│ │ └── file_directory_management.md
-│ ├── gui/
-│ │ ├── screenshots/
-│ │ └── interfaces.md
-│ └── scripts/
-│ ├── cleanup.bat
-│ └── sysinfo.ps1
-│
-├── mac/
-│ ├── cmd/
-│ │ ├── disk_file_system_operations.md
-│ │ └── file_directory_management.md
-│ ├── gui/
-│ │ ├── screenshots/
-│ │ └── interfaces.md
-│ └── scripts/
-│ ├── cleanup.sh
-│ └── sysinfo.sh
-│
-├── linux/
-│ ├── cmd/
-│ │ ├── disk_file_system_operations.md
-│ │ └── file_directory_management.md
-│ ├── gui/
-│ │ ├── screenshots/
-│ │ └── interfaces.md
-│ └── scripts/
-│ ├── cleanup.sh
-│ └── monitor_resources.sh
-│
-├── comparative_analysis/
-│ ├── command_equivalents.md
-│ ├── filesystem_comparison.md
-│ ├── troubleshooting_tools.md
-│ └── shell_vs_terminal.md
-│
-└── README.md
+|
+|----images/
+|----linux/
+|    |----commands/
+|    |    |----advanced_tools.md
+|    |    |----package_managament.md
+|    |----gui/
+|    |    |----screenshots/
+|    |    |----interface.md
+|    |----scripts/
+|    |    |----file_directory_management.md
+|    |    |----task_management.md
+|----mac/
+|    |----commands/
+|    |    |----advanced_tools.md
+|    |    |----package_managament.md
+|    |----gui/
+|    |    |----screenshots/
+|    |    |----interface.md
+|    |----scripts/
+|    |    |----file_directory_management.md
+|    |    |----task_management.md
+|----windows/
+|    |----commands/
+|    |    |----advanced_tools.md
+|    |    |----package_managament.md
+|    |----gui/
+|    |    |----screenshots/
+|    |    |----interface.md
+|    |----scripts/
+|    |    |----file_directory_management.md
+|    |    |----task_management.md
+|----README.md
+
 ```
 
 ## 🧩 Topics Covered
@@ -83,12 +77,6 @@ os_exploration/
 - Log and configuration backups  
 - Disk usage reports  
 - Basic update & upgrade automation  
-
-### 🔍 Comparative Insights
-- Cross-OS command equivalents  
-- Filesystem architecture differences  
-- Troubleshooting tool mappings  
-- CLI vs GUI administration  
 
 ## 🧠 Learning Objectives
 
@@ -117,13 +105,6 @@ You can browse each OS folder to view:
 
 This repo is **educational**, not meant for production use.
 
-## 🧭 Future Additions
-
-- Networking commands and troubleshooting tools  
-- Startup & services management across OSs  
-- Security & permissions comparison  
-- Advanced automation (scheduled tasks, cron jobs, launchd)  
-
 ## 🪄 Reflections
 
 Building this repository helped me see how *conceptually similar yet implementation-wise different* these systems are.  
@@ -133,8 +114,8 @@ Despite using distinct tools, their goals — resource management, security, and
 
 If you found this interesting or want to collaborate on similar learning projects:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/yourprofile/)
-- 🧰 [GitHub](https://github.com/yourusername)
+- 💼 [LinkedIn](https://www.linkedin.com/in/kavinda-rajapaksha-65034333a)
+- 🧰 [GitHub](https://github.com/kavinda85346)
 
 > 📚 *“Understanding systems deeply starts with exploring how they differ.”*
 
