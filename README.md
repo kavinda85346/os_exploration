@@ -32,7 +32,7 @@ os_exploration/
 |    |----scripts/
 |    |    |----file_directory_management.md
 |    |    |----task_management.md
-|----mac/
+|----macOS/
 |    |----commands/
 |    |    |----advanced_tools.md
 |    |    |----package_managament.md
